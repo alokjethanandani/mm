@@ -1,0 +1,16 @@
+.website-logo span { 
+	display: none; 
+}
+
+.website-logo { 
+	margin: 0 auto $rem-base * 1.5; 
+	height: 80px;
+	width: 74px; 
+	background: url('../img/website-logo.svg') center no-repeat;
+	background-size: cover;  
+}
+
+.website-logo a { 
+	display: block;
+	height: 100%;
+}

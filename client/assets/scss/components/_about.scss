@@ -1,0 +1,134 @@
+.about-wrapper { 
+	width: 100%; 
+	height: 100vh;
+	min-height: 100vh; 	
+	padding-top: $rem-base * 6; 
+}
+
+.about-image { 
+	border-radius: 50%; 
+	border: 1px solid lighten($gray, 30%);
+	width: 260px;
+	height: 260px; 
+}
+
+.about-image-container { 
+	width: 100%; 
+  text-align: center;
+}
+
+.about-heading, 
+.about-desc, 
+.about-long-desc { 
+	text-align: center; 
+} 	
+ 
+.about-heading {
+	margin-top: $rem-base; 
+	font-size: rem-calc(36);
+	margin-bottom: 0; 
+}
+
+.about-desc { 
+	font-size: rem-calc(20);
+	color: $gray-light;
+}
+
+.about-long-desc { 
+	font-size: rem-calc(18); 	
+	color: $gray-dark;
+	width: 80%; 
+	margin: 0 auto; 	
+}
+
+.bio-container .inline-list { 
+	margin-top: $rem-base; 
+	font-size: rem-calc(18);
+}
+
+.bio-container .inline-list > li:first-child:nth-last-child(2),
+.bio-container .inline-list > li:first-child:nth-last-child(2) ~ li {
+  width: 50%;
+  float: left; 
+  display: inline; 
+  margin-right: 0; 
+} 
+
+.bio-container .inline-list li:first-child { 
+	text-align: right;
+	padding-right: $rem-base/2; 
+}
+
+.bio-container .inline-list li:last-child { 
+	text-align: left; 
+	padding-left: $rem-base/2;
+}
+
+.endorsements-item-inner { 
+	text-align: center; 
+	padding: $rem-base;
+	border-radius: $global-radius;
+	border: 1px solid lighten($gray, 30%);
+}
+
+.endorsements-container { 
+	position: relative;
+	margin-top: $rem-base * 3; 
+}
+
+.endorsements-read-further { 
+	margin-bottom: 0; 
+	font-size: rem-calc(18);
+	text-align: center; 
+}
+
+.endorsements-img { 
+	margin-top: $rem-base * 1.5; 
+	margin-bottom: $rem-base; 
+	width: 77px;
+	height: 77px; 
+}
+
+.endorsements__person { 
+	margin-bottom: 0; 
+}
+
+.endorsements__person-title { 
+	font-size: rem-calc(12);
+}
+
+.endorsements__desc { 
+	color: $gray; 
+	font-size: rem-calc(14);
+}
+
+
+
+//Renaissance Section
+
+.renaissance-section { 
+	margin-top: $rem-base * 6; 
+	position: relative;
+	padding-top: $rem-base * 4; 
+	padding-bottom: $rem-base * 4; 
+	background-color: #000; 
+	width: 100%; 
+	color: #fff; 
+}
+
+.renaissance-section--angle-top-image { 
+	position: absolute; 
+	bottom: -($rem-base * 6 + 2px); 
+	width: 100%; 
+	left: 3px;
+}
+
+.renaissance-section .section-heading { 
+	color: $primary-color; 
+	margin-bottom: $rem-base * 2; 
+}
+
+.renaissance__desc { 
+	padding-left: $rem-base; 
+	padding-right: $rem-base; 
+}

@@ -1,0 +1,81 @@
+.capability-wrapper { 
+	width: 100%; 
+	height: 100vh;
+	min-height: 100vh; 	
+}
+
+.capability-item { 
+	position: relative; 
+}
+
+//-- Design Section 
+.capability-design-section--angle-top-image { 
+	position: absolute; 
+	bottom: -2px; 
+	left: 3px; 
+	width: 100%;
+	min-width: 100%;
+	z-index: 1;
+}
+
+.capability-design-section--angle-bottom-image { 
+	position: absolute; 
+	top: -2px; 
+	left: 3px; 
+	width: 100%;
+	min-width: 100%;
+	z-index: 1;
+}
+
+
+.skills-list dt, 
+.skills-list dd { 
+	display: inline; 
+	float: left; 
+}
+
+.capability__heading { 
+	font-size: rem-calc(28);
+	font-weight: 400; 
+}
+
+.capability__desc { 
+	font-size: rem-calc(16);
+	line-height: rem-calc(24);
+}
+
+.capability-item .grid-content { 
+	margin-top: $rem-base * 6; 
+	margin-bottom: $rem-base * 6; 	
+}
+
+.capability-item-desc { 
+	margin-top: 20px; 
+}
+
+.capability-item .capability__heading, 
+.capability-item p,
+.capability-item ul,
+.capability-item ol,
+.capability-item li,
+.capability-item dl,
+.capability-item dt,
+.capability-item dd { 
+	color: #fff;
+}
+
+.capability-item dt,
+.capability-item dd { 
+	margin-bottom: 0; 
+	font-size: rem-calc(13);
+	margin-right: rem-calc(8);
+}
+
+.capability-item dt { 
+	text-transform: uppercase; 
+	font-size: rem-calc(12);
+}
+
+.capability-item dl { 
+	line-height: rem-calc(20);
+}

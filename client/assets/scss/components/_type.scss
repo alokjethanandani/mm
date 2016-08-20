@@ -1,0 +1,55 @@
+.section-heading { 
+	text-align: center; 
+}
+
+.lead { 
+	text-align: center; 
+	margin: 0 auto;
+	width: 75%; 	
+	color: $gray;
+	font-weight: 300; 
+}
+
+//Approach page
+.approach-wrapper .section-heading, 
+.approach-wrapper .lead, 
+.approach-wrapper h1, 
+.approach-wrapper h2, 
+.approach-wrapper h3, 
+.approach-wrapper h4,
+.approach-wrapper h5,
+.approach-wrapper h6, 
+.approach-wrapper p,
+.approach-wrapper ul,
+.approach-wrapper ol,
+.approach-wrapper li { 
+	color: #fff; 
+}
+
+.approach-wrapper .section-heading, 
+.approach-wrapper .lead { 
+	text-align: center; 
+}
+
+.section-heading.heading__uncertainty,
+.section-heading.heading__experience { 
+	color: $primary-color;
+}
+
+.process__heading { 
+	font-weight: 400; 
+}
+
+.process__desc { 
+	font-size: rem-calc(12);
+	line-height: rem-calc(15);
+}
+
+.approach__desc { 
+	height: 100%;
+	font-size: rem-calc(20);
+	line-height: rem-calc(28);
+	font-weight: 300; 
+	margin-top: auto;
+	margin-bottom: auto;  
+}

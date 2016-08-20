@@ -1,0 +1,43 @@
+.mission-wrapper { 
+  width: 100%;  
+  height: 100vh; 
+  min-height: 100vh; 
+}
+
+.mission-background-container {
+	height: 100vh; 
+  min-height: 100vh; 
+	z-index: 1; 
+	background: url('../img/home-bg.jpg') center no-repeat;
+	background-size: cover;  		
+}
+
+.mission-background { 
+  height: 100%; 
+  width: 100%; 
+}
+
+.mission-statement-lead { 
+	text-align: center; 
+	font-size: rem-calc(32);
+  font-weight: 300; 
+	color: #fff;
+  position: absolute;
+  top: 50%;
+  margin-top: -$rem-base * 5;
+  left: 0;
+	padding-left: $rem-base * 2;
+	padding-right: $rem-base * 2;
+  @include breakpoint(medium) { 
+ 		padding-left: $rem-base * 5;
+  	padding-right: $rem-base * 5;
+  }
+  @include breakpoint(large) {
+ 		padding-left: $rem-base * 10;
+  	padding-right: $rem-base * 10;
+  }  	
+  @include breakpoint(xlarge) {
+ 		padding-left: $rem-base * 15;
+  	padding-right: $rem-base * 15;
+  }  	
+}

@@ -1,0 +1,30 @@
+//--Approach: entrepreneurial and experience sections
+
+.experience-outer,
+.entrepreneurial-outer { 
+	margin-top: $rem-base * 2; 
+}
+
+
+//--Approach: Process Section 
+
+.process-section,
+.experience-section { 
+	// padding-top: $rem-base * 6; 
+	// padding-bottom: $rem-base * 6; 	
+}
+
+
+//--Capabilities: Process Section 
+
+.strategy-section { 
+	background-color: $primary-color;
+}
+
+.design-section { 
+	background-color: $alert-color;
+}
+
+.frontend-section { 
+	background-color: $success-color;
+}

@@ -1,0 +1,65 @@
+.approach-item { 
+	position: relative;
+}
+
+.approach__uncertainty { 
+	margin-top: $rem-base * 6;
+	margin-bottom: $rem-base * 6; 
+}
+
+//-- Process Circular Shapes
+
+.process-outer { 
+	margin-top: $rem-base * 3; 
+}
+
+
+.process-outer .grid-block {
+  margin-left: $rem-base/1.25 !important;
+  margin-right: $rem-base/1.25 !important;
+}
+
+.process-outer .grid-block { 
+	text-align: center;
+}
+
+//-- Design is an entrepreneurial activity
+
+.entrepreneurial-section { 
+	background-color: $primary-color; 
+	// position: relative; 
+}
+
+.entrepreneurial-section-inner { 
+	margin-top: $rem-base * 4; 
+	margin-bottom: $rem-base * 4; 	
+}
+
+.entrepreneurial-section--angle-top-image { 
+	position: absolute; 
+	left: 3px; 
+	bottom: -2px;
+	width: 100%; 
+	min-width: 100%;
+}
+
+.entrepreneurial-section--angle-bottom-image { 
+	position: absolute; 
+	left: 3px; 
+	top: -2px;
+	width: 100%;
+	min-width: 100%;	
+}
+
+.entrepreneurial__image, 
+.experience__image { 
+	text-align: center; 
+	width: 80%;  
+}
+
+//--Experience Section
+
+.experience__section-inner { 
+	margin-top: $rem-base * 6;
+	margin-bottom: $rem-base * 6; 
+}
